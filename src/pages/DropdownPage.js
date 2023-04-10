@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Dropdown } from "./components/Dropdown";
+import { Dropdown } from "../components/Dropdown";
 
-export default function App() {
+export default function DropdownPage() {
   const [selection, setSelection] = useState(null);
 
   const handleSelect = (option) => {
